@@ -52,3 +52,53 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+
+
+
+
+#hero {
+    display: flex;
+    gap: 70px;
+
+    padding-left: 150px;
+
+    background: linear-gradient(90deg, rgba(31, 41, 55, 1) 0%, rgba(93, 100, 110, 1) 51%, rgba(145, 150, 157, 1) 100%);
+}
+.hero-message {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 100px;
+}
+#footer .call-to-action, #hero .call-to-action {
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    font-family: 'Gill sans', sans-serif;
+    letter-spacing: 1px;
+    background-color: #ffa500;
+}
+#hero .call-to-action {
+    align-self: flex-start;
+}
+img {
+    width: 500px;
+}
+p,
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #f9faf8;
+}
+p {
+    font-family: 'Gill Sans', sans-serif;
+    letter-spacing: 0.2px;
+    color: #e5e7eb;
+}
