@@ -117,6 +117,7 @@ p {
 
 
 .wave {
+    margin-top: -400px;
     width: 100%;
     overflow: hidden;
     line-height: 0;
