@@ -116,6 +116,46 @@ p {
 
 
 
+#feature-section {
+    position: relative;
+    margin-top: -250px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.cards img {
+    width: 60px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    
+    border: 1px solid #1f29370a;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+
+    box-shadow: 0px 19px 20px 8px #1f293726;
+    background-color: white;
+}
+.card p {
+    color: #1f2937c7;
+}
+h3 {
+    font-family: 'Gill sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
 .wave {
     margin-top: -400px;
     width: 100%;
