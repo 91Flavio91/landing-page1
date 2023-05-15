@@ -223,6 +223,37 @@ hr {
 
 
 
+#footer {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: -99px;
+    padding: 100px 150px;
+
+    background-color: #1f2937;
+}
+.signin {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.email {
+    flex: 0.5;
+
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    font-family: 'Gill sans', sans-serif;
+    letter-spacing: 1px;
+
+    background-color: #f9faf8;
+    color: #1f293726;
+}
+
+
+
+
+
 .wave {
     margin-top: -400px;
     width: 100%;
