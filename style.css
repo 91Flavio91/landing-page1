@@ -287,3 +287,18 @@ hr {
 .wave2 .shape-fill {
     fill: #ffffff;
 }
+
+.wave3 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 99px;
+}
+.wave3 .shape-fill {
+    fill: #ffffff;
+}
